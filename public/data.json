@@ -1,0 +1,70 @@
+{
+  "Group": {
+    "Total GC Values": 14,
+    "Total GC Correct Values": 3,
+    "Total Values 2021": 53,
+    "Total Correct Values 2021": 29,
+    "Total Values 2022": 46,
+    "Total Correct Values 2022": 20,
+    "Total Values 2023": 0,
+    "Total Correct Values 2023": 0,
+    "Total Values": 99,
+    "Total Correct Values": 49,
+    "Total GC Success Rate": "21.43%",
+    "Total 2021 Success Rate": "54.72%",
+    "Total 2022 Success Rate": "43.48%",
+    "Total 2023 Success Rate": null,
+    "Total Success Rate": "49.49%"
+  },
+  "Sideshow": {
+    "Total Values 2022": 12,
+    "Total Correct Values 2022": 6,
+    "Total Values": 12,
+    "Total Correct Values": 6,
+    "Total 2022 Success Rate": "50.00%",
+    "Total Success Rate": "50.00%"
+  },
+  "Wyatt": {
+    "Total Values 2022": 12,
+    "Total Correct Values 2022": 6,
+    "Total Values": 12,
+    "Total Correct Values": 6,
+    "Total 2022 Success Rate": "50.00%",
+    "Total Success Rate": "50.00%"
+  },
+  "Ballatw": {
+    "Total Values 2022": 12,
+    "Total Correct Values 2022": 6,
+    "Total Values": 12,
+    "Total Correct Values": 6,
+    "Total 2022 Success Rate": "50.00%",
+    "Total Success Rate": "50.00%"
+  },
+  "Aevilcat": {
+    "Total Values 2022": 6,
+    "Total Correct Values 2022": 3,
+    "Total Values": 6,
+    "Total Correct Values": 3,
+    "Total 2022 Success Rate": "50.00%",
+    "Total Success Rate": "50.00%"
+  },
+  "Bren": {
+    "Total Values 2022": 5,
+    "Total Correct Values 2022": 3,
+    "Total Values": 5,
+    "Total Correct Values": 3,
+    "Total 2022 Success Rate": "60.00%",
+    "Total Success Rate": "60.00%"
+  },
+  "Avast": {
+    "Total Values 2022": 1,
+    "Total Correct Values 2022": 0,
+    "Total Values": 1,
+    "Total Correct Values": 0,
+    "Total 2022 Success Rate": "0.00%",
+    "Total Success Rate": "0.00%"
+  },
+  "Dryad": {
+    "Total Success Rate": null
+  }
+}
