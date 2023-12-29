@@ -15,8 +15,21 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-          'handdrawn-backline': "url('/public/images/backline.png')",
+        'handdrawn-backline': "url('/public/images/backline.png')",
       },
+      // keyframes: {
+      //   grow: {
+      //     from: {
+      //       height: '0',
+      //     },
+      //     to: {
+      //       height: '1000px',
+      //     },
+      //   },
+      // },
+      // animation: {
+      //   'growth': 'grow 3s ease-out 1',
+      // },
     },
   },
   plugins: [],

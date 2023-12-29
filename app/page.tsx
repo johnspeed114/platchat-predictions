@@ -1,5 +1,5 @@
-'use client'
-import { useEffect } from 'react';
+'use client';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
 import platChatLogo from '../public/images/platChatLogo.png';
@@ -8,16 +8,21 @@ import handler from './api/sheet';
 import './globals.css';
 
 export default function Home() {
+  const [data, setData] = useState([
+    { name: 'Group', value: 70 }, // Example data
+    { name: 'Sideshow', value: 60 },
+    { name: 'Sideshow', value: 20 },
+  ]);
   useEffect(() => {
     handler();
   }, []);
   return (
     <>
-    <Head>
-          <link rel="icon" href="/favicon.ico" />
-    </Head>
+      <Head>
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
       <header className='flex items-center justify-between p-4 text-xl font-semibold bg-gray-100 border-b border-gray-300 flex-col sm:flex-row'>
-        <div className='flex justify-start sm:flex justify-center w-full sm:w-auto'>
+        <div className='flex justify-start sm:justify-center w-full sm:w-auto'>
           <Image
             src={platChatLogo}
             alt='PlatChat Logo'
@@ -25,20 +30,40 @@ export default function Home() {
             width={80}
             height={80}
           />
-         
         </div>
         <div className='flex justify-center w-full'>
-          <h5 className='text-3xl sm:text-5xl  font-childshandwriting'>
+          <h1 className='text-3xl sm:text-4xl xl:text-5xl  font-childshandwriting'>
             The Valorant Visionaries&apos; Predictions
-          </h5>
+          </h1>
         </div>
       </header>
-      <main className='flex min-h-screen flex-col items-center justify-center p-4 bg-white'>
-        <div className='z-10 max-w-7xl w-full font-mono text-sm lg:flex justify-center border-b-4 border-gray-600 rounded-full'>
-          {/* Add the URL for the hand-drawn line image to the bars and x-axis line */}
-         
-{/*
- 
+      <main className='flex min-h-screen flex-col items-center justify-start p-4 bg-white'>
+        <section className='flex flex-col items-center z-10 max-w-7xl w-full font-mono text-sm lg:flex justify-center border-b-4 border-gray-600 rounded-sm'>
+          <h2 className='text-3xl font-childshandwriting font-bold mb-14'>
+            PlatChat Prediction Success Rating
+          </h2>
+
+          <div className='flex justify-center space-x-2'>
+            {data.map((item, index) => (
+              <div
+                key={index}
+                className={`relative bg-blue-500 border-2 border-b-blue-500 border-gray-600 rounded-t-md w-16`}
+                // [FYI]works but but the animation is not working
+                style={{
+                  height: `${3 * item.value}px`,
+                  animation: 'grow 3s ease-out 1',
+                }}>
+                {/* [TO DO] https://www.youtube.com/watch?v=nyuht1Mmyss add the rising bar */}
+                <div className='absolute -bottom-8 left-0 right-0 flex justify-center'>
+                  <span className='mt-2 text-2xl font-bold font-childshandwriting'>
+                    Bob
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+          {/*
+
       {data.map((value, index) => (
         <div
           key={index}
@@ -53,10 +78,8 @@ export default function Home() {
         ></div>
       ))}
         */}
-        </div>
+        </section>
       </main>
     </>
   );
 }
-         
-         
