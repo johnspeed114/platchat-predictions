@@ -1,5 +1,6 @@
-{
-  "Group": {
+[
+  {
+    "Name": "Group",
     "Total GC Values": 14,
     "Total GC Correct Values": 3,
     "Total Values 2021": 53,
@@ -16,47 +17,53 @@
     "Total 2023 Success Rate": null,
     "Total Success Rate": "49.49%"
   },
-  "Sideshow": {
+  {
+    "Name": "Sideshow",
     "Total Values 2022": 12,
     "Total Correct Values 2022": 6,
     "Total Values": 12,
     "Total Correct Values": 6,
-    "Total 2022 Success Rate": "50.00%",
-    "Total Success Rate": "50.00%"
+    "Total 2022 Success Rate": "50%",
+    "Total Success Rate": "50%"
   },
-  "Wyatt": {
+   {
+    "Name": "Wyatt",
     "Total Values 2022": 12,
     "Total Correct Values 2022": 6,
     "Total Values": 12,
     "Total Correct Values": 6,
-    "Total 2022 Success Rate": "50.00%",
-    "Total Success Rate": "50.00%"
+    "Total 2022 Success Rate": "50%",
+    "Total Success Rate": "50%"
   },
-  "Ballatw": {
+  {
+    "Name": "BallaTW",
     "Total Values 2022": 12,
     "Total Correct Values 2022": 6,
     "Total Values": 12,
     "Total Correct Values": 6,
-    "Total 2022 Success Rate": "50.00%",
-    "Total Success Rate": "50.00%"
+    "Total 2022 Success Rate": "50%",
+    "Total Success Rate": "50%"
   },
-  "Aevilcat": {
+   {
+    "Name": "Aevilecat",
     "Total Values 2022": 6,
     "Total Correct Values 2022": 3,
     "Total Values": 6,
     "Total Correct Values": 3,
-    "Total 2022 Success Rate": "50.00%",
-    "Total Success Rate": "50.00%"
+    "Total 2022 Success Rate": "50%",
+    "Total Success Rate": "50%"
   },
-  "Bren": {
+  {
+    "Name": "Bren",
     "Total Values 2022": 5,
     "Total Correct Values 2022": 3,
     "Total Values": 5,
     "Total Correct Values": 3,
-    "Total 2022 Success Rate": "60.00%",
-    "Total Success Rate": "60.00%"
+    "Total 2022 Success Rate": "60%",
+    "Total Success Rate": "60%"
   },
-  "Avast": {
+ {
+    "Name": "Avast",
     "Total Values 2022": 1,
     "Total Correct Values 2022": 0,
     "Total Values": 1,
@@ -64,7 +71,8 @@
     "Total 2022 Success Rate": "0.00%",
     "Total Success Rate": "0.00%"
   },
-  "Dryad": {
+  {
+    "Name": "Dryad",
     "Total Success Rate": null
   }
-}
+]

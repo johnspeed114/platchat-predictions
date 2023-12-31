@@ -21,6 +21,15 @@ body {
 
 @keyframes grow {
   from {
-    height: 0;
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
   }
 }
