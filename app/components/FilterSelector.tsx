@@ -1,37 +1,24 @@
 import React, { useState } from 'react';
 
-export default function FilterSelector() {
-  const [selectedFilters, setSelectedFilters] = useState({
-   
-    '2023': false,
-    '2022': false,
-    '2021': false,
-    "Total": false,
-    'Game Changer': false,
-  });
+interface FilterSelectorProps {
+  handleFilterChange: (event: React.ChangeEvent<HTMLSelectElement>) => void;
+  type: string;
+}
 
-  const handleCheckboxChange = (event) => {
-    setSelectedFilters({
-      ...selectedFilters,
-      [event.target.name]: event.target.checked,
-    });
-    // Additional actions based on selection can be added here
-  };
-
+export default function FilterSelector({handleFilterChange, type}: FilterSelectorProps) {
   return (
-    <div className='flex flex-row items-center justify-center w-full mb-14 space-x-3'>
-      {Object.keys(selectedFilters).map((filter) => (
-        <label key={filter} className="flex items-center">
-          <input
-          className='mr-1'
-            type="checkbox"
-            name={filter}
-            checked={selectedFilters[filter]}
-            onChange={handleCheckboxChange}
-          />
-          <span>{filter}</span>
-        </label>
-      ))}
+    <div className='flex flex-col items-center justify-center w-full mb-6 sm:mb-10'>
+      <select 
+        value={type} 
+        onChange={handleFilterChange} 
+        className="p-2 border border-gray-300 rounded"
+      >
+        <option value="Total">Total</option>
+        <option value="2023">2023</option>
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+        <option value="Game Changers">Game Changers</option>
+      </select>
     </div>
   );
 }

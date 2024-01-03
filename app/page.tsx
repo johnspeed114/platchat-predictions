@@ -4,12 +4,12 @@ import './globals.css';
 import jsonData from '../public/data.json';
 import Bars from './components/Bars';
 import FilterSelector from './components/FilterSelector';
-import { PredictionData } from './types';
+import { PredictionType } from './types';
 
 const PlatChatMembers = ['Group', 'SideShow'];
 
 export default function Home() {
-  const [data, setData] = useState<PredictionData[]>(jsonData);
+  const [type, setType] = useState<PredictionType>('Total');
   //[NOTE] we will excclude 2023 events for now until i get the data from Kurt if not getting it from the podcast
   // useEffect(() => {
   //   // [NOTE] Really not sure how much people will view this web the first day and/or few hours
@@ -35,22 +35,26 @@ export default function Home() {
   //       myData[0].GCEvents.successRate = res-8][0]
   //       myData[0].Events2021.successRate = res[11][0]
 
-  //       console.log(myData)
-
   //     }
 
   //   );
   // }, []);
-
-
+  const handleFilterChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    //[Note] Type assertion used here because the possible values of event.target.value
+  // are controlled and known to always match the PredictionType.
+  // [WARNING] Be cautious if modifying the data flow or the values in the dropdown,
+  // as this bypasses TypeScript's type checking.
+    setType(event.target.value as PredictionType);
+  }
+  
   return (
     <main className='flex flex-col items-center justify-start p-4 bg-white'>
       <section className='flex flex-col items-center max-w-5xl w-full font-mono text-sm lg:flex justify-center border-b-4 border-gray-600 rounded-sm'>
-        <h2 className='text-xl sm:text-3xl font-childshandwriting font-bold mb-8'>
+        <h2 className='text-xl sm:text-3xl font-childshandwriting font-bold mb-6 sm:mb-8 underline'>
           Prediction Success Rating
         </h2>
-         <FilterSelector />
-        <Bars data={data}/>
+         <FilterSelector handleFilterChange={handleFilterChange} type={type} />
+        <Bars data={jsonData} type={type}/>
       </section>
     </main>
   );

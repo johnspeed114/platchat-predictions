@@ -17,6 +17,10 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'handdrawn-backline': "url('/public/images/backline.png')",
       },
+      spacing: {
+        '90': '22.5rem',
+      },
+      
       // keyframes: {
       //   grow: {
       //     from: {
