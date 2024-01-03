@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { PredictionData } from '../types';
 import { Tooltip } from 'react-tooltip';
 
 const backgroundColors = [
@@ -11,29 +12,32 @@ const backgroundColors = [
   'bg-indigo-200', // Light indigo
 ];
 
-export default function Bars() {
-  const [data, setData] = useState([]);
+interface BarsProps {
 
-  useEffect(() => {
-    const fetchingData = async () => {
-      const response = await fetch('/data.json');
-      const result = await response.json();
-      setData(result);
-    };
-    fetchingData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  data: PredictionData[];}
 
+export default function Bars(data: BarsProps) {
+  
+
+  // useEffect(() => {
+  //   const fetchingData = async () => {
+  //     const response = await fetch('/data.json');
+  //     const result = await response.json();
+  //     setData(result);
+  //   };
+  //   fetchingData();
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, []);
+ console.log(data.data)
   return (
     <div className='flex items-end mt-1'>
-      {data.map((item, index) => {
+      {data.data.map((item, index) => {
         if (!item['Total Success Rate']) return null;
         return (
           <React.Fragment key={index}>
             <div
               className={`anchor-element-${index} relative flex flex-col items-center px-2 sm:px-3`}>
               {/* [TO DO] put this into a component file later  */}
-
               <div
                 className={`${backgroundColors[index]} cursor-pointer border-2 border-t-gray-600 border-l-gray-600 border-r-gray-600 rounded-t-md md:w-16 lg:w-24 justify-center flex items-center text-center font-bold sm:text-lg md:text-xl font-childshandwriting hover:bg-opacity-70`}
                 // [FYI]works but when loading the bottom line is not in the right place, starts at the top

@@ -38,7 +38,9 @@ export default function RootLayout({
           </div>
           <div className='flex justify-center w-full'>
             <h1 className='text-3xl sm:text-4xl xl:text-5xl text-center font-childshandwriting'>
+              <Link href={'/'}>
               The Valorant Visionaries&apos; Predictions
+              </Link>
             </h1>
           </div>
           <div className='flex flex-row cursor-pointer items-center hover:bg-sky-00 mx-3 border-r-2 relative group'>

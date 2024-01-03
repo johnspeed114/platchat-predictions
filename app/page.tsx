@@ -1,11 +1,15 @@
 'use client';
-import React from 'react';
+import React, {useState} from 'react';
 import './globals.css';
+import jsonData from '../public/data.json';
 import Bars from './components/Bars';
+import FilterSelector from './components/FilterSelector';
+import { PredictionData } from './types';
 
 const PlatChatMembers = ['Group', 'SideShow'];
 
 export default function Home() {
+  const [data, setData] = useState<PredictionData[]>(jsonData);
   //[NOTE] we will excclude 2023 events for now until i get the data from Kurt if not getting it from the podcast
   // useEffect(() => {
   //   // [NOTE] Really not sure how much people will view this web the first day and/or few hours
@@ -28,7 +32,7 @@ export default function Home() {
   //          myData[i].Total.successRate = res[14][i+1]
 
   //       }
-  //       myData[0].GCEvents.successRate = res[10][0]
+  //       myData[0].GCEvents.successRate = res-8][0]
   //       myData[0].Events2021.successRate = res[11][0]
 
   //       console.log(myData)
@@ -38,13 +42,15 @@ export default function Home() {
   //   );
   // }, []);
 
+
   return (
     <main className='flex flex-col items-center justify-start p-4 bg-white'>
       <section className='flex flex-col items-center max-w-5xl w-full font-mono text-sm lg:flex justify-center border-b-4 border-gray-600 rounded-sm'>
-        <h2 className='text-xl sm:text-3xl font-childshandwriting font-bold mb-14'>
+        <h2 className='text-xl sm:text-3xl font-childshandwriting font-bold mb-8'>
           Prediction Success Rating
         </h2>
-        <Bars />
+         <FilterSelector />
+        <Bars data={data}/>
       </section>
     </main>
   );
