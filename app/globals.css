@@ -33,3 +33,12 @@ body {
     opacity: 1;
   }
 }
+
+@keyframes tilt-shaking {
+  0% {
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(-25deg);
+  }
+}

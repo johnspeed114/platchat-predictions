@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      'childshandwriting': ['ChildsHandwriting', 'cursive'],
+      childshandwriting: ['ChildsHandwriting', 'cursive'],
     },
     extend: {
       backgroundImage: {
@@ -20,7 +20,7 @@ const config: Config = {
       spacing: {
         '90': '22.5rem',
       },
-      
+
       // keyframes: {
       //   grow: {
       //     from: {

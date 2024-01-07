@@ -41,9 +41,9 @@ export default function Home() {
   // }, []);
 
   return (
-    <main className='flex flex-col items-center justify-start p-4 bg-white'>
-      <section className='flex flex-col items-center max-w-5xl w-full font-mono text-sm lg:flex justify-center border-b-4 border-gray-600 rounded-sm'>
-        <h2 className='text-xl sm:text-3xl font-childshandwriting font-bold mb-6 sm:mb-8 underline'>
+    <main className="flex flex-col items-center justify-start p-4 bg-white">
+      <section className="flex flex-col items-center max-w-5xl w-full font-mono text-sm lg:flex justify-center border-b-4 border-gray-600 rounded-sm">
+        <h2 className="text-xl sm:text-3xl font-childshandwriting font-bold mb-6 sm:mb-8 underline">
           Prediction Success Rating
         </h2>
         <FilterSelector type={type} setType={setType} />
