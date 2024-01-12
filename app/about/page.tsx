@@ -13,7 +13,7 @@ export default function About() {
           the fans of VALORANT esports and PlatChat Valorant, showcasing
           prediction success rates of PlatChat members across major
           international tournaments. It's all about adding more fun to the
-          esports experience!
+          esports experience! FYI, since I don't have many of the PlatChat members' data individually, I apologies Avast for your horrible success rate. I need you to do more pickems plz! 
         </p>
         <section>
           {/* [TO DO]  
@@ -22,7 +22,7 @@ export default function About() {
             Data Sources and Types
           </h2>
           <p className="mb-5">
-            I've analyzed PlatChat VALORANT podcast predictions for
+            I've analyzed PlatChat VALORANT podcast and members of the podcast predictions for VCT
             international tournaments (2021-2023). This includes success rates,
             total matches predicted, and correct predictions for each member and
             the group. The data focuses on key tournaments, offering insights
@@ -47,15 +47,13 @@ export default function About() {
        
           <h2 className="font-bold text-lg text-center">Methodologies</h2>
           <p className="mb-5">
-            The methodology involves recording PlatChat member predictions from
-            each podcast episode before tournaments. If the individuals made the
+            The methodology involves manually data entrying PlatChat members' predictions from
+            each podcast pickem episode. If the individuals made the
             predictions with no group predictions, group prediction would be the
-            major predcition. Success rates are calculated by comparing
+            <b>major predcition among the members during that PlatChat episode</b>. Success rates are calculated by comparing
             predictions with actual match results, then treating all instances
-            as the same weighted average. For individual predictions, the
-            majority prediction was considered as the group's prediction. While
-            efforts were made for accuracy, limitations include the exclusion of
-            map-specific predictions and unavailability of playoff series data.
+            as the same weighted average. While I made some efforts for accuracy, there are a lot limitations and lack of data. These include the exclusion of
+            map-specific predictions and unavailability of playoff series data. I hope eventually either community or PlatChat can provide me with more data.
             Limitation details more below.
           </p>
         </section>
@@ -81,6 +79,7 @@ export default function About() {
             these matches in the prediction for simplicity sake. Other events
             with same treatment include VCT Stage 3 Masters Reykjavik and VCT
             Stage 3 Masters 2023.
+            {/* [TO DO] add the missing data points (noticable ones like the group preds) like mention them right above */}
           </p>
         </section>
 
