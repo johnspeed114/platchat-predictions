@@ -43,7 +43,7 @@ export default function RootLayout({
               <Link href={'/'}>The Valorant Visionaries&apos; Predictions</Link>
             </h1>
           </div>
-          <div className="flex flex-row cursor-pointer items-center hover:bg-sky-00 mx-3 border-r-2 relative group">
+          <div className="flex flex-row cursor-pointer items-center hover:bg-sky-00 mx-3 sm:border-r-2 relative group">
             <InformationCircleIcon className="flex w-5 h-5 sm:w-6 sm:h-6 text-gray-600" />
             <span className="text-sm sm:text-lg font-serif pr-3">
               <Link href={'/about'}>About</Link>

@@ -1,10 +1,11 @@
+'use client'
 import React from 'react';
 
 export default function About() {
   return (
     <main className="flex justify-center items-center content-center flex-col">
-      <section className="flex justify-center items-center flex-col max-w-6xl">
-        <h1 className="my-5 font-bold text-4xl font-childshandwriting">
+      <section className="flex justify-center items-center flex-col max-w-6xl px-4 sm:px-0">
+        <h1 className="my-5 font-bold text-3xl sm:text-4xl font-childshandwriting">
           About This Site
         </h1>
         <p className="mb-5">
@@ -15,7 +16,7 @@ export default function About() {
           esports experience!
         </p>
         <section>
-          {/* [TO DO] Add sources links and their link below. 
+          {/* [TO DO]  
         Maybe also add my google sheets(read ONLY) to this  */}
           <h2 className="font-bold text-lg text-center">
             Data Sources and Types
@@ -43,8 +44,8 @@ export default function About() {
           </p>
         </section>
         <section>
-          {/* [TO DO ] Also, add the explaination to the actual calculations for the success rate. */}
-          <h2 className="font-bold text-l text-center">Methodologies</h2>
+       
+          <h2 className="font-bold text-lg text-center">Methodologies</h2>
           <p className="mb-5">
             The methodology involves recording PlatChat member predictions from
             each podcast episode before tournaments. If the individuals made the

@@ -7,15 +7,15 @@
     "Total Correct Values 2021": 29,
     "Total Values 2022": 46,
     "Total Correct Values 2022": 20,
-    "Total Values 2023": 0,
-    "Total Correct Values 2023": 0,
+    "Total Values 2023": 31,
+    "Total Correct Values 2023": 17,
     "Total Values": 99,
     "Total Correct Values": 49,
     "Total GC Success Rate": "21.43%",
     "Total 2021 Success Rate": "54.72%",
     "Total 2022 Success Rate": "43.48%",
-    "Total 2023 Success Rate": null,
-    "Total Success Rate": "49.49%"
+    "Total 2023 Success Rate": "54.84%",
+    "Total Success Rate": "50.77%"
   },
   {
     "Name": "Sideshow",
