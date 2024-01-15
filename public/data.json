@@ -1,30 +1,33 @@
 [
   {
     "Name": "Group",
-    "Total GC Values": 14,
-    "Total GC Correct Values": 3,
+    "Total GC Values": 28,
+    "Total GC Correct Values": 12,
     "Total Values 2021": 53,
     "Total Correct Values 2021": 29,
-    "Total Values 2022": 46,
-    "Total Correct Values 2022": 20,
-    "Total Values 2023": 31,
-    "Total Correct Values 2023": 17,
-    "Total Values": 99,
-    "Total Correct Values": 49,
-    "Total GC Success Rate": "21.43%",
+    "Total Values 2022": 32,
+    "Total Correct Values 2022": 17,
+    "Total Values 2023": 50,
+    "Total Correct Values 2023": 25,
+    "Total Values": 163,
+    "Total Correct Values": 83,
+    "Total GC Success Rate": "42.86%",
     "Total 2021 Success Rate": "54.72%",
-    "Total 2022 Success Rate": "43.48%",
-    "Total 2023 Success Rate": "54.84%",
-    "Total Success Rate": "50.77%"
+    "Total 2022 Success Rate": "53.13%",
+    "Total 2023 Success Rate": "50.00%",
+    "Total Success Rate": "50.92%"
   },
   {
     "Name": "Sideshow",
     "Total Values 2022": 12,
     "Total Correct Values 2022": 6,
-    "Total Values": 12,
-    "Total Correct Values": 6,
+    "Total Values 2023": 14,
+    "Total Correct Values 2023": 1,
+    "Total Values": 26,
+    "Total Correct Values": 7,
     "Total 2022 Success Rate": "50%",
-    "Total Success Rate": "50%"
+    "Total 2023 Success Rate": "7.14%",
+    "Total Success Rate": "26.92%"
   },
   {
     "Name": "Wyatt",
@@ -72,7 +75,27 @@
     "Total Success Rate": "0.00%"
   },
   {
-    "Name": "Dryad",
-    "Total Success Rate": null
+    "Name": "Sliggy",
+    "Total Values 2022": 34,
+    "Total Correct Values 2022": 10,
+    "Total Values 2023": 87,
+    "Total Correct Values 2023": 51,
+    "Total Values": 121,
+    "Total Correct Values": 61,
+    "Total 2022 Success Rate": "29.41%",
+    "Total 2023 Success Rate": "58.62%",
+    "Total Success Rate": "50.41%"
+  },
+  {
+    "Name": "TMV",
+    "Total Values 2022": 83,
+    "Total Correct Values 2022": 27,
+    "Total Values 2023": 86,
+    "Total Correct Values 2023": 36,
+    "Total Values": 169,
+    "Total Correct Values": 63,
+    "Total 2022 Success Rate": "32.53%",
+    "Total 2023 Success Rate": "41.86%",
+    "Total Success Rate": "37.28%"
   }
 ]

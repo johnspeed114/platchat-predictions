@@ -6,15 +6,16 @@ import { predictionTypeMapping } from '../helper/constants';
 import { Tooltip } from 'react-tooltip';
 
 const backgroundColors = [
-  'bg-blue-200', // Light blue
-  'bg-red-200', // Light red
-  'bg-green-200', // Light green
+  'bg-blue-200',   // Light blue
+  'bg-red-200',    // Light red
+  'bg-green-200',  // Light green
   'bg-yellow-200', // Light yellow
   'bg-purple-200', // Light purple
-  'bg-pink-200', // Light pink
+  'bg-pink-200',   // Light pink
   'bg-indigo-200', // Light indigo
+  'bg-orange-200', // Light orange
+  'bg-teal-200',   // Light teal
 ];
-
 interface BarsProps {
   data: PredictionData[];
   type: PredictionType;
