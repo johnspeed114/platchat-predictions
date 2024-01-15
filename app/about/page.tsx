@@ -13,7 +13,9 @@ export default function About() {
           the fans of VALORANT esports and PlatChat Valorant, showcasing
           prediction success rates of PlatChat members across major
           international tournaments. It's all about adding more fun to the
-          esports experience! FYI, since I don't have many of the PlatChat members' data individually, I apologies Avast for your horrible success rate. I need you to do more pickems plz! 
+          esports experience! FYI, since I don't have many of the PlatChat members' data individually, I apologies Avast for your horrible success rate. 
+          The most data I have is the group's, Sliggy's, and Thinking Man Valorant's. Hence, why their predictons are more accurate.
+          Rest of you, I need you to do more pickems individual plz!Especially you Avast!
         </p>
         <section>
           {/* [TO DO]  
@@ -22,7 +24,7 @@ export default function About() {
             Data Sources and Types
           </h2>
           <p className="mb-5">
-            I've analyzed PlatChat VALORANT podcast and members of the podcast predictions for VCT
+            I've analyzed PlatChat VALORANT members' predictions for VCT
             international tournaments (2021-2023). This includes success rates,
             total matches predicted, and correct predictions for each member and
             the group. The data focuses on key tournaments, offering insights
@@ -44,15 +46,18 @@ export default function About() {
           </p>
         </section>
         <section>
-       
-          <h2 className="font-bold text-lg text-center">Methodologies</h2>
+
+          <h2 className="font-bold text-lg text-center">Methodologies and Calculations</h2>
           <p className="mb-5">
             The methodology involves manually data entrying PlatChat members' predictions from
             each podcast pickem episode. If the individuals made the
             predictions with no group predictions, group prediction would be the
             <b>major predcition among the members during that PlatChat episode</b>. Success rates are calculated by comparing
             predictions with actual match results, then treating all instances
-            as the same weighted average. While I made some efforts for accuracy, there are a lot limitations and lack of data. These include the exclusion of
+            as the same weighted average. 
+            To visually represent the success rates, smiling faces indicate a success rate above or equal to 50%, while sad faces are used for rates below 50%.
+            While I made some efforts for accuracy, this prediction again is just simply for fun. 
+            There are also a lot limitations and lack of data. These include the exclusion of
             map-specific predictions and unavailability of playoff series data. I hope eventually either community or PlatChat can provide me with more data.
             Limitation details more below.
           </p>
@@ -72,7 +77,7 @@ export default function About() {
             found innaccuracies in my data, please reach out to me at
             jojomojojo194@gmail.com Additionally, there are some tournament
             formats, due to unexpected circumstances, reformated after the
-            PlatChat predictions. <br/><b>[Specific Case: 2021 Masters Berlin] </b>
+            PlatChat predictions. <br /><b>[Specific Case: 2021 Masters Berlin] </b>
             An interesting case was the 2021 Masters Berlin, where one team
             couldn’t participate. For the affected group, which included teams
             like Sentinels, F4Q, and G2, I adjusted my approach. I did not count
@@ -96,9 +101,9 @@ export default function About() {
           <h2 className="font-bold text-lg text-center">Contact and Credits</h2>
           <p className="mb-5">
             For inquiries or feedback, please reach out to me at:<a href="mailto:jojomojojo194@gmail.com" className='text-blue-400'>
-    <strong> jojomojojo194@gmail.com</strong>
-  </a>.
-             Special thanks to the PlatChat for being a
+              <strong> jojomojojo194@gmail.com</strong>
+            </a>.
+            Special thanks to the PlatChat for being a
             key source of the predictions data and to the VALORANT community for
             their enthusiasm and support.
           </p>

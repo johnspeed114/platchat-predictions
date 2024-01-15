@@ -10,12 +10,12 @@ const PlatChatMembers = ['Group', 'SideShow'];
 
 export default function Home() {
   const [type, setType] = useState<PredictionType>('Total');
-  //[NOTE] we will excclude 2023 events for now until i get the data from Kurt if not getting it from the podcast
   // useEffect(() => {
   //   // [NOTE] Really not sure how much people will view this web the first day and/or few hours
   //   // Using a free database might generate 429 errors https(exceed the quota like Google Sheets its 300 per minute)
   //   // Give up on the useeffect and fetching for now
   //   // Priority is smoothness and speed of the website in the beginning (MVP)
+  //  [TO DO] We have useffect and fetch data from google sheets functions, use it later
   //   let filteredData = [];
   //   handler().then(
   //     (res)=> {
@@ -43,6 +43,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-start p-4 bg-white">
       <section className="flex flex-col items-center max-w-5xl w-full font-mono text-sm lg:flex justify-center border-b-4 border-gray-600 rounded-sm">
+        {/* [TO DO] for todo we need to have max width different for mobile, tablet, and desktop. and we need a overflow-x scroll for mobile and tablet */}
         <h2 className="text-xl sm:text-3xl font-childshandwriting font-bold mb-6 sm:mb-8 underline">
           Prediction Success Rating
         </h2>

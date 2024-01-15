@@ -30,6 +30,7 @@ interface ProfileImageProps {
   successRate: string | number | null | undefined;
 }
 
+// [TO DO] Add photos for TMV and Sliggy!
 const memberImages: Record<MemberName, MemberImage> = {
   Group: { happy: groupHappy, sad: groupSad },
   Aevilcat: { happy: aevilcatHappy, sad: aevilcatSad },
