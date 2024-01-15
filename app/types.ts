@@ -24,4 +24,6 @@ export type MemberName =
   | 'Bren'
   | 'Sideshow'
   | 'Wyatt'
+  | 'Sliggy'
+  | 'TMV'
   | 'Group';

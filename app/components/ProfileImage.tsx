@@ -18,6 +18,11 @@ import sideshowHappy from '../../public/images/platchatmembers/sideshow/sideshow
 import sideshowSad from '../../public/images/platchatmembers/sideshow/sideshow_sad.png';
 import wyattHappy from '../../public/images/platchatmembers/wyatt/wyatt_happy.png';
 import wyattSad from '../../public/images/platchatmembers/wyatt/wyatt_sad.png';
+import sliggyHappy from '../../public/images/platchatmembers/sliggy/sliggy_happy.png';
+import sliggySad from '../../public/images/platchatmembers/sliggy/sliggy_sad.png';
+import tmvHappy from '../../public/images/platchatmembers/tmv/tmv_happy.png';
+import tmvSad from '../../public/images/platchatmembers/tmv/tmv_sad.png';
+
 import { predictionTypeMapping } from '../helper/constants';
 
 interface ProfileImageProps {
@@ -33,6 +38,8 @@ const memberImages: Record<MemberName, MemberImage> = {
   Bren: { happy: brenHappy, sad: brenSad },
   Sideshow: { happy: sideshowHappy, sad: sideshowSad },
   Wyatt: { happy: wyattHappy, sad: wyattSad },
+  Sliggy: { happy: sliggyHappy, sad: sliggySad },
+  TMV: { happy: tmvHappy, sad: tmvSad },
 };
 
 export default function ProfileImage({ name, successRate }: ProfileImageProps) {
