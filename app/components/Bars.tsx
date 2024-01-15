@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import Image from 'next/image';
 import { PredictionData, PredictionType } from '../types';
@@ -35,7 +36,7 @@ export default function Bars({ data, type = 'Total' }: BarsProps) {
   // [TO DO] make the bars for mobile all min-width so they dont get too small
   const values: string[] = predictionTypeMapping[type];
   return (
-    <div className="flex items-end min-h-90  rounded-sm max-w-sm sm:max-w-fit overflow-x-auto">
+    <div className="flex items-end min-h-90  rounded-sm max-w-sm sm:max-w-fit overflow-x-auto overflow-y-hidden">
       {data.map((item, index) => {
         if (!item[values[2]]) return null;
         return (
