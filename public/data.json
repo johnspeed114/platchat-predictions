@@ -5,47 +5,47 @@
     "Total GC Correct Values": 12,
     "Total Values 2021": 53,
     "Total Correct Values 2021": 29,
-    "Total Values 2022": 32,
-    "Total Correct Values 2022": 17,
+    "Total Values 2022": 33,
+    "Total Correct Values 2022": 18,
     "Total Values 2023": 50,
     "Total Correct Values 2023": 25,
-    "Total Values": 163,
-    "Total Correct Values": 83,
+    "Total Values": 164,
+    "Total Correct Values": 84,
     "Total GC Success Rate": "42.86%",
     "Total 2021 Success Rate": "54.72%",
-    "Total 2022 Success Rate": "53.13%",
+    "Total 2022 Success Rate": "54.55%",
     "Total 2023 Success Rate": "50.00%",
-    "Total Success Rate": "50.92%"
+    "Total Success Rate": "51.22%"
   },
   {
     "Name": "Sideshow",
-    "Total Values 2022": 12,
-    "Total Correct Values 2022": 6,
+    "Total Values 2022": 13,
+    "Total Correct Values 2022": 7,
     "Total Values 2023": 14,
     "Total Correct Values 2023": 1,
-    "Total Values": 26,
-    "Total Correct Values": 7,
-    "Total 2022 Success Rate": "50%",
+    "Total Values": 27,
+    "Total Correct Values": 8,
+    "Total 2022 Success Rate": "53.85%",
     "Total 2023 Success Rate": "7.14%",
-    "Total Success Rate": "26.92%"
+    "Total Success Rate": "29.63%"
   },
   {
     "Name": "Wyatt",
-    "Total Values 2022": 12,
+    "Total Values 2022": 13,
     "Total Correct Values 2022": 6,
-    "Total Values": 12,
+    "Total Values": 13,
     "Total Correct Values": 6,
-    "Total 2022 Success Rate": "50%",
-    "Total Success Rate": "50%"
+    "Total 2022 Success Rate": "46.15%",
+    "Total Success Rate": "46.15%"
   },
   {
     "Name": "Balla",
-    "Total Values 2022": 12,
-    "Total Correct Values 2022": 6,
-    "Total Values": 12,
-    "Total Correct Values": 6,
-    "Total 2022 Success Rate": "50%",
-    "Total Success Rate": "50%"
+    "Total Values 2022": 13,
+    "Total Correct Values 2022": 7,
+    "Total Values": 13,
+    "Total Correct Values": 7,
+    "Total 2022 Success Rate": "53.85%",
+    "Total Success Rate": "53.85%"
   },
   {
     "Name": "Aevilcat",
@@ -67,9 +67,9 @@
   },
   {
     "Name": "Avast",
-    "Total Values 2022": 1,
+    "Total Values 2022": 2,
     "Total Correct Values 2022": 0,
-    "Total Values": 1,
+    "Total Values": 2,
     "Total Correct Values": 0,
     "Total 2022 Success Rate": "0.00%",
     "Total Success Rate": "0.00%"

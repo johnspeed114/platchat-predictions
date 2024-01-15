@@ -13,7 +13,7 @@ export default function FilterSelector({ type, setType }: FilterSelectorProps) {
     // are controlled and known to always match the PredictionType.
     // [WARNING] Be cautious if modifying the data flow or the values in the dropdown,
     // as this bypasses TypeScript's type checking.
-    // [TO DO] Have selector later to hide and show members
+    // [TO DO- future] Have selector later to hide and show members
     setType(event.target.value as PredictionType);
   };
 
