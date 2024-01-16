@@ -22,8 +22,6 @@ import sliggySad from '../../public/images/platchatmembers/sliggy/sliggy_sad.jpg
 import tmvHappy from '../../public/images/platchatmembers/tmv/tmv_happy.png';
 import tmvSad from '../../public/images/platchatmembers/tmv/tmv_sad.png';
 
-import { predictionTypeMapping } from '../helper/constants';
-
 interface ProfileImageProps {
   name: string;
   successRate: string | number | null | undefined;

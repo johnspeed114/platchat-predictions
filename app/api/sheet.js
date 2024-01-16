@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 // export default async function handler() {
 //   try {
 //     const response = await fetch(

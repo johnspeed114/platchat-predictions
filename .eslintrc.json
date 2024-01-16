@@ -1,11 +1,16 @@
 {
-  "extends": ["plugin:prettier/recommended"],
-  "plugins": ["prettier"],
+  "parser": "@typescript-eslint/parser", // Use the TypeScript parser
+  "plugins": ["@typescript-eslint", "prettier"], // Add the TypeScript plugin
+  "extends": [
+    "plugin:@typescript-eslint/recommended", // Extend with recommended TypeScript rules
+    "plugin:prettier/recommended",
+    "next"
+  ],
   "rules": {
     "prettier/prettier": "error"
   },
   "parserOptions": {
-    "ecmaVersion": 2020, // or a later version
-    "sourceType": "module" // if you are using ES modules
+    "ecmaVersion": 2020,
+    "sourceType": "module"
   }
 }

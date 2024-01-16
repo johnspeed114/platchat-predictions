@@ -20,8 +20,6 @@ export default function About() {
           plz! Yeah, looking at you, Avast 😉.
         </p>
         <section>
-          {/* [TO DO]  
-        Maybe also add my google sheets(read ONLY) to this and !!!ALL NEEDS TO BE GRAMMATICALLY CHECKED AGAIN THRU CHATGPT */}
           <h2 className="font-bold text-lg text-center">Data Sources</h2>
           <p className="mb-5">
             A big shout out to <b>Rib.gg</b> for providing all my VCT data for
