@@ -17,42 +17,49 @@ export default function About() {
           rough success rate showcase. Most of my info is on the group as a
           whole, Sliggy, and Thinking Man Valorant – that's why their
           predictions seem spot-on. The rest of you, I need you to do more
-          pickems individual plz! Yeah, looking at you, Avast 😉.
+          pickems individual plz! Yeah, looking at you, Avast. 😉
         </p>
         <section>
           <h2 className="font-bold text-lg text-center">Data Sources</h2>
           <p className="mb-5">
-            A big shout out to <b>Rib.gg</b> for providing all my VCT data for
-            my spreadsheets. Without them, I'd be buried under piles of data
-            entry! For more juicy VALORANT esports stats, do check out their
-            website. My focus is on Plat Chat VALORANT members' predictions for
-            only VCT international tournaments (2021-2023). We're talking
-            success rates, total matches predicted, and the number of correct
-            guesses. This is due to simplicity sake for viewers and me. Dive
-            into my spreadsheet and sources here:
-            <ul className="underline text-blue-500 ">
+            A big shoutout to <b>Rib.gg</b> for providing all my VCT data for my
+            spreadsheets. Without them, I'd be buried under piles of data entry!
+            For more juicy VALORANT esports stats, do check out their website.
+            My focus is on Plat Chat VALORANT members' predictions for only VCT
+            international tournaments (2021-2023). We're talking success rates,
+            total matches predicted, and the number of correct guesses. This is
+            due to simplicity sake for viewers and me. Checkout my spreadsheet
+            and sources down below:
+            <ul className="list-disc pl-4 mt-2">
               <li>
-                <a href="https://docs.google.com/spreadsheets/d/1Qv1Qqz5Zw3XQ5e0W1r0YyKJ2xT6ZQZQX/edit#gid=0">
-                  My Spreadsheet on Google Sheets
-                </a>
-                Wanna help and edit? Shoot me an email at{' '}
                 <a
-                  href="mailto:jojomojojo194@gmail.com"
-                  className="text-blue-400"
+                  href="https://docs.google.com/spreadsheets/d/1tKKw7tt-UHf931EXR3kGzF0LYLxlyKUIuOMX8AxB3Bc/edit?usp=sharing"
+                  className="text-blue-500 underline"
                 >
-                  <strong> jojomojojo194@gmail.com</strong>
+                  My Spreadsheet on Google Sheets
                 </a>
               </li>
               <li>
-                <a href="https://www.youtube.com/@Plat ChatVALORANT">
+                <a
+                  href="https://www.youtube.com/@Plat ChatVALORANT"
+                  className=" text-blue-500 underline"
+                >
                   Plat Chat VALORANT Podcast
                 </a>
               </li>
               <li>
-                <a href="https://www.rib.gg/">Rib.gg</a>
+                <a
+                  href="https://www.rib.gg/"
+                  className="text-blue-500 underline"
+                >
+                  Rib.gg
+                </a>
               </li>
               <li>
-                <a href="https://liquipedia.net/valorant">
+                <a
+                  href="https://liquipedia.net/valorant"
+                  className="text-blue-500 underline"
+                >
                   Liquipedia Valorant
                 </a>
               </li>
@@ -80,7 +87,6 @@ export default function About() {
           <h2 className="font-bold text-lg text-center">
             Limitations and Considerations
           </h2>
-          {/* [TO DO] find and look at my design drawing for limitation info */}
           <p className="mb-5">
             As much as I'd love to be perfect, there are some limitations. We're
             skipping a lot of the regional predictions and missing group playoff
@@ -102,16 +108,15 @@ export default function About() {
             prediction for similplicity.
             <br />
             <b>[VCT 2022 Masters Reykjavik - Lower Bracket Final]: </b>Had to
-            make a call on the tie between Paper Rex and ZETA Division. I went
+            make a call on a tie between Paper Rex and ZETA Division. I went
             with ZETA Division, just to keep things smooth. 😊 😊
-            {/* [TO DO] add the missing data points (noticable ones like the group preds) like mention them right above */}
           </p>
         </section>
 
         <section>
           <h2 className="font-bold text-lg text-center">Future Direction</h2>
           <p className="mb-5">
-            Future plans?"I'm trying to improve my methods and look at things
+            Future plans? I'm trying to improve my methods and look at things
             more broadly. Expect more regional matches and some more interactive
             data visualizations to play with. Also, I'm looking to add top
             streamers predicitons into mix eventually. Got feedback or ideas?
@@ -122,12 +127,28 @@ export default function About() {
           <h2 className="font-bold text-lg text-center">Contact and Credits</h2>
           <p className="mb-5">
             For any thoughts or feedback, drop me a line at:
-            <a href="mailto:jojomojojo194@gmail.com" className="text-blue-400">
-              <strong> jojomojojo194@gmail.com</strong>
-            </a>
-            {/* [TO DO] add my discord */}. And a massive shoutout Plat Chat for
-            being a key source of the predictions data and to the VALORANT
-            community for their enthusiasm and support.
+            <ul className="list-disc pl-4 mt-2">
+              <li>
+                <a
+                  href="mailto:jojomojojo194@gmail.com"
+                  className="text-blue-400 underline"
+                >
+                  <strong> jojomojojo194@gmail.com</strong>
+                </a>
+              </li>
+              <li>
+                Discord:
+                <a
+                  href="https://discord.com/user/229793786925023242"
+                  className="text-blue-400 underline pl-1"
+                >
+                  <strong>bot_mat</strong>
+                </a>
+              </li>
+            </ul>
+            <br /> And a massive shoutout to Plat Chat VALORANT for being a key
+            source of the predictions data and to the VALORANT community for
+            their enthusiasm and support!
           </p>
         </section>
       </section>
