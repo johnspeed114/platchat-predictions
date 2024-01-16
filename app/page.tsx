@@ -42,7 +42,7 @@ export default function Home() {
     <main className="flex flex-col items-center justify-start p-4 bg-white">
       <section className="flex flex-col items-center max-w-sm md:max-w-md lg:max-w-7xl w-full font-mono text-sm lg:flex justify-center ">
         <h2 className="text-xl sm:text-3xl font-childshandwriting font-bold mb-6 sm:mb-8 underline">
-          Prediction Success Rating
+          Intervnational VCT Prediction Success
         </h2>
         <FilterSelector type={type} setType={setType} />
         <Bars data={jsonData} type={type} />
