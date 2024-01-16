@@ -111,10 +111,11 @@ export default function About() {
         <section>
           <h2 className="font-bold text-lg text-center">Future Direction</h2>
           <p className="mb-5">
-            I am looking to refine my methodology and expand the scope of my
-            analysis. Got feedback or ideas? I'm all ears! Future plans? Expect
-            more regional matches and some snazzy interactive data
-            visualizations to play with.
+            Future plans?"I'm trying to improve my methods and look at things
+            more broadly. Expect more regional matches and some more interactive
+            data visualizations to play with. Also, I'm looking to add top
+            streamers predicitons into mix eventually. Got feedback or ideas?
+            I'm all ears! Shoot me an email or discord message!
           </p>
         </section>
         <section>
@@ -124,9 +125,9 @@ export default function About() {
             <a href="mailto:jojomojojo194@gmail.com" className="text-blue-400">
               <strong> jojomojojo194@gmail.com</strong>
             </a>
-            . And a massive shoutout Plat Chat for being a key source of the
-            predictions data and to the VALORANT community for their enthusiasm
-            and support.
+            {/* [TO DO] add my discord */}. And a massive shoutout Plat Chat for
+            being a key source of the predictions data and to the VALORANT
+            community for their enthusiasm and support.
           </p>
         </section>
       </section>

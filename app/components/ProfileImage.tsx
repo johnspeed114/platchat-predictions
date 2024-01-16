@@ -18,7 +18,7 @@ import sideshowSad from '../../public/images/platchatmembers/sideshow/sideshow_s
 import wyattHappy from '../../public/images/platchatmembers/wyatt/wyatt_happy.png';
 import wyattSad from '../../public/images/platchatmembers/wyatt/wyatt_sad.png';
 import sliggyHappy from '../../public/images/platchatmembers/sliggy/sliggy_happy.png';
-import sliggySad from '../../public/images/platchatmembers/sliggy/sliggy_sad.jpg';
+import sliggySad from '../../public/images/platchatmembers/sliggy/sliggy_sad.png';
 import tmvHappy from '../../public/images/platchatmembers/tmv/tmv_happy.png';
 import tmvSad from '../../public/images/platchatmembers/tmv/tmv_sad.png';
 
