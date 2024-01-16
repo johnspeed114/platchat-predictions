@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
 import { InformationCircleIcon } from '@heroicons/react/24/outline';
-import platChatLogo from '../images/platChatLogo.png';
+import platChatLogo from '../public/images/PlatChatLogo.png';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
