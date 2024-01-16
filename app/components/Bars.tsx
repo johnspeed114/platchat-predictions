@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import Image from 'next/image';
 import { PredictionData, PredictionType } from '../types';
 import ProfileImage from './ProfileImage';
 import { predictionTypeMapping } from '../helper/constants';

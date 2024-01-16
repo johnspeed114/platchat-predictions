@@ -6,8 +6,6 @@ import Bars from './components/Bars';
 import FilterSelector from './components/FilterSelector';
 import { PredictionType } from './types';
 
-const PlatChatMembers = ['Group', 'SideShow'];
-
 export default function Home() {
   const [type, setType] = useState<PredictionType>('Total');
   //[NOTE] we will excclude 2023 events for now until i get the data from Kurt if not getting it from the podcast
