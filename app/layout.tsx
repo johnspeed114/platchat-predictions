@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Plat Chat Prediction Rating',
-  description: 'Predictions Success for PlatChat Members Success Ratings',
+  description: 'Predictions Success for Plat Chat Members',
 };
 
 export default function RootLayout({

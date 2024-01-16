@@ -9,15 +9,15 @@ export default function About() {
         </h1>
         <p className="mb-5">
           Welcome to my Valorant Visionaries' Predictions! If you're all about
-          VALORANT esports and love PlatChat Valorant, you're in the right
-          place. Here, we track and showcase how well PlatChat members predict
+          VALORANT esports and love Plat Chat Valorant, you're in the right
+          place. Here, we track and showcase how well Plat Chat members predict
           outcomes of major international tournaments. It's all about adding
           more fun to the esports experience! Quick heads-up: I don't have loads
-          of individual data for the PlatChat crew, so sorry Avast for the rough
-          success rate showcase. Most of my info is on the group as a whole,
-          Sliggy, and Thinking Man Valorant – that's why their predictions seem
-          spot-on. The rest of you, I need you to do more pickems individual
-          plz! Yeah, looking at you, Avast 😉.
+          of individual data for the Plat Chat crew, so sorry Avast for the
+          rough success rate showcase. Most of my info is on the group as a
+          whole, Sliggy, and Thinking Man Valorant – that's why their
+          predictions seem spot-on. The rest of you, I need you to do more
+          pickems individual plz! Yeah, looking at you, Avast 😉.
         </p>
         <section>
           <h2 className="font-bold text-lg text-center">Data Sources</h2>
@@ -25,7 +25,7 @@ export default function About() {
             A big shout out to <b>Rib.gg</b> for providing all my VCT data for
             my spreadsheets. Without them, I'd be buried under piles of data
             entry! For more juicy VALORANT esports stats, do check out their
-            website. My focus is on PlatChat VALORANT members' predictions for
+            website. My focus is on Plat Chat VALORANT members' predictions for
             only VCT international tournaments (2021-2023). We're talking
             success rates, total matches predicted, and the number of correct
             guesses. This is due to simplicity sake for viewers and me. Dive
@@ -44,8 +44,8 @@ export default function About() {
                 </a>
               </li>
               <li>
-                <a href="https://www.youtube.com/@PlatChatVALORANT">
-                  PlatChat VALORANT Podcast
+                <a href="https://www.youtube.com/@Plat ChatVALORANT">
+                  Plat Chat VALORANT Podcast
                 </a>
               </li>
               <li>
@@ -64,7 +64,7 @@ export default function About() {
             Methodologies and Calculations
           </h2>
           <p className="mb-5">
-            So, how is it done? I dive into each PlatChat podcast episode and
+            So, how is it done? I dive into each Plat Chat podcast episode and
             note down the crew's predictions. When it's a solo forecast, cool.
             When not, the group's guess is whatever most members lean towards in
             that episode. Success rates? Just me comparing their guesses against
@@ -72,7 +72,7 @@ export default function About() {
             or equal to 50%, while sad faces are used for rates below 50%. Think
             of it as fun with a dash of serious. And yep, I'm aware there are
             gaps – like group or playoff series prediction data. But hey, maybe
-            you guys or the PlatChat members can help fill in those blanks
+            you guys or the Plat Chat members can help fill in those blanks
             someday!
           </p>
         </section>
@@ -124,7 +124,7 @@ export default function About() {
             <a href="mailto:jojomojojo194@gmail.com" className="text-blue-400">
               <strong> jojomojojo194@gmail.com</strong>
             </a>
-            . And a massive shoutout PlatChat for being a key source of the
+            . And a massive shoutout Plat Chat for being a key source of the
             predictions data and to the VALORANT community for their enthusiasm
             and support.
           </p>
