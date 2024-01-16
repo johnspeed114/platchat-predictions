@@ -41,7 +41,9 @@ export default function Bars({ data, type = 'Total' }: BarsProps) {
         return (
           <div className="flex flex-col" key={index}>
             <div
-              className="flex justify-center mb-4"
+              className={`flex justify-center ${
+                item[values[2]] === '0.00%' ? 'mb-5' : 'mb-2'
+              }`}
               key={`image-${type}-${index}`}
             >
               <ProfileImage name={item['Name']} successRate={item[values[2]]} />
