@@ -119,8 +119,8 @@ export default function About() {
             Future plans? I'm trying to improve my methods and look at things
             more broadly. Expect more regional matches and some more interactive
             data visualizations to play with. Also, I'm looking to add top
-            streamers predicitons into mix. Got feedback or ideas? I'm all ears!
-            Shoot me an email or discord message!
+            streamers predicitons into the mix. Got feedback or ideas? I'm all
+            ears! Shoot me an email or discord message!
           </p>
         </section>
         <section>
